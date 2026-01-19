@@ -1,0 +1,73 @@
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f4f4f4;
+  text-align: center;
+  padding: 20px;
+}
+
+h1 {
+  margin-bottom: 20px;
+}
+
+form {
+  margin-bottom: 30px;
+}
+
+form input {
+  padding: 8px;
+  margin: 5px;
+  width: 200px;
+}
+
+form button {
+  padding: 8px 16px;
+  cursor: pointer;
+}
+
+#meme-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 20px;
+}
+
+.meme {
+  position: relative;
+  width: 300px;
+}
+
+.meme img {
+  width: 100%;
+  border-radius: 6px;
+}
+
+.meme-text {
+  position: absolute;
+  width: 100%;
+  left: 0;
+  color: white;
+  font-size: 24px;
+  font-weight: bold;
+  text-shadow: 2px 2px 4px black;
+  padding: 5px;
+}
+
+.top-text {
+  top: 5px;
+}
+
+.bottom-text {
+  bottom: 5px;
+}
+
+.delete-btn {
+  position: absolute;
+  top: 5px;
+  right: 5px;
+  background: red;
+  color: white;
+  border: none;
+  padding: 5px 8px;
+  cursor: pointer;
+  border-radius: 4px;
+}
